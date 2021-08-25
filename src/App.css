@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+#grid{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+#grid div{
+  height:100px;
+  width:100px;
+  border:1px solid black
+}
+#grid > div {
+  flex-grow: 1;
+  width: 33%;
+  height: 100px;
+}
